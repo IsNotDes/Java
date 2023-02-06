@@ -1,4 +1,5 @@
-package TP01.src;
+package TP01._code.Visages.src;
+
 import java.awt.*;
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package TP01.src;
+package TP01._code.Visages.src;
 import java.awt.Graphics;
 
 public class VisageRond {
@@ -11,7 +11,6 @@ public class VisageRond {
     private int hauteur = 50;
     private int dx = 5;
     private int dy = 5;
-    public VisageRond() {}
     public VisageRond(int xg, int yg) {
          xhg = xg;
          yhg = yg;

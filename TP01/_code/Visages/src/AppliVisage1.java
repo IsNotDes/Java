@@ -1,4 +1,4 @@
-package TP01.src;
+package TP01._code.Visages.src;
 import javax.swing.JFrame;
 
 public class AppliVisage1 {
@@ -9,7 +9,7 @@ public class AppliVisage1 {
 		Dessin d = new Dessin();
 		laFenetre.add(d);
 		laFenetre.setVisible(true);
-		VisageRond v1 = new VisageRond();
+		VisageRond v1 = new VisageRond(50,50);
 		d.ajouterObjet(v1);
 		while (true) {
 			if (v1.bordAtteint())
