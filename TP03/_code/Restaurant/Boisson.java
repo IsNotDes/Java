@@ -1,4 +1,5 @@
-package TP03.src.Restaurant;
+package Restaurant;
+
 
 public class Boisson extends Consommable{
 

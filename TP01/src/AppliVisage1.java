@@ -1,4 +1,3 @@
-package TP01.src;
 import javax.swing.JFrame;
 
 public class AppliVisage1 {
@@ -19,4 +18,4 @@ public class AppliVisage1 {
 			d.pause(50);
 		}
 	}
-} 
+}

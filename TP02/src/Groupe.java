@@ -1,23 +1,21 @@
-package TP02.src;
-
-public class Groupe{
+public class Groupe {
 	private String nom;
 	private int effectif;
-	
-	public Groupe(String n, int e){
+
+	public Groupe(String n, int e) {
 		nom = new String(n);
 		effectif = e;
 	}
-	
-	public int getEffectif(){
+
+	public int getEffectif() {
 		return effectif;
 	}
-	
-	public String getNom(){
+
+	public String getNom() {
 		return nom;
 	}
-	
-	public String toString(){
+
+	public String toString() {
 		return nom + " (" + effectif + " étudiants)";
 	}
 }

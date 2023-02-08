@@ -1,8 +1,8 @@
-package TP03.src.Restaurant;
+package Restaurant;
 
-public class TestRestaurant2 {
-    public TestRestaurant2() {
-	
+public class TestRestaurant {
+
+    public TestRestaurant() {
     }
     
     public static void main(String args[]){

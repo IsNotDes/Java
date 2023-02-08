@@ -1,6 +1,9 @@
-package TP03.src.Restaurant;
+package Restaurant;
 
 public class Consommable {
+
+
+    
     private String nom;
     private int prix; // en centimes d'euros
 

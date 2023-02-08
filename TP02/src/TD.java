@@ -1,11 +1,9 @@
-package TP02.src;
-
-public class TD extends Activite{
-	public TD(String nom){
+public class TD extends Activite {
+	public TD(String nom) {
 		super(nom);
 	}
-	
-	public void addSalle(SalleCTD s){
+
+	public void addSalle(SalleCTD s) {
 		super.addSalle(s);
 	}
 }

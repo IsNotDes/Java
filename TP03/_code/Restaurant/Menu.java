@@ -1,9 +1,12 @@
-package TP03.src.Restaurant;
+package Restaurant;
+
 import java.util.ArrayList;
 
 public class Menu {
     ArrayList<Consommable> items;
     int prix; // en cents
+
+    
     public Menu(int prix, Entree e, PlatPrincipal p, Dessert d, Boisson b) throws Exception{
 	//TODO : completer (question3 + question 5)
     }

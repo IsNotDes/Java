@@ -1,4 +1,5 @@
-package TP03.src.Restaurant;
+package Restaurant;
+
 import java.util.ArrayList;
 
 public class Carte {
