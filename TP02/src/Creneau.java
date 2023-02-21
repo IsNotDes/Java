@@ -5,7 +5,7 @@ public class Creneau {
     private int heure;
     private int minute;
     private int duree;
-
+    
     private Salle salle;
     private Activite activite;
 
@@ -41,8 +41,13 @@ public class Creneau {
     }
 
     private boolean verifDuree() {
-        
-        return true;
+        if (getDuree() == 90) {
+            return true
+        }
+
+        else {
+            return false
+        }
     }
 
     public Salle getSalle() {
@@ -58,12 +63,21 @@ public class Creneau {
     }
 
     public String toString() {
-        return jour + "/" + mois + "/" + annee + " " + heure + ":" + minute + " (" + duree + ") : " +
-                activite + " " + salle;
+        return jour + "/" + mois + "/" + annee + " " + heure + ":" + minute + " (" + duree + ") : " + activite + " " + salle;
     }
 
     public boolean intersection(Creneau c) {
-        //TODO
-        return true;
+        int debut1 = heure * 60 + minute;
+        int fin1 = debut1 + duree;
+        int debut2 = c.heure * 60 + c.minute;
+        int fin2 = debut2 + c.duree;
+
+        if (((debut1 <= debut2) && (debut2 < fin1)) || ((debut2 <= debut1) && (debut1 < fin2))) {
+            return true
+        }
+
+        else {
+            return false
+        }
     }
 }
