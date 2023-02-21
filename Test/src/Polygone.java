@@ -4,10 +4,13 @@ public class Polygone {
 
   public void initialiser(int nombre, int longueur) {
     lgCôté = longueur;
-    if (nombre > 2) nbDeCôtés = nombre; else nbDeCôtés = 3;
+    if (nombre > 2)
+      nbDeCôtés = nombre;
+    else
+      nbDeCôtés = 3;
   }
 
-  public int périmètre() {
-    return lgCôté * nbDeCôtés;
+  public int périmètre() { 
+    return lgCôté * nbDeCôtés; 
   }
 }
